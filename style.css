@@ -6,11 +6,12 @@
   top: 0px;
 }
 .form {
-  text-align: center;
   float: left;
   font-family: "Manrope", sans-serif;
   font-family: "Space Mono", monospace;
   background-color: #ffffff;
+  max-width: 400px;
+  margin: auto;
 }
 .loginheading {
   font-family: "Manrope";
@@ -18,8 +19,11 @@
   font-weight: 700;
   font-size: 32px;
   line-height: 100%;
-  text-align: center;
   color: #18181b;
+}
+.container1 {
+  display: flex;
+  padding-left: 10px 20px 20px 10px;
 }
 .paragraph {
   font-family: "Manrope";
@@ -27,10 +31,9 @@
   font-weight: 400;
   font-size: 12px;
   line-height: 100%;
-  text-align: center;
   color: #52525b;
 }
-.picheading {
+/*.picheading {
   font-family: "IBM Plex Sans";
   font-style: normal;
   font-weight: 700;
@@ -38,10 +41,11 @@
   line-height: 42px;
   text-align: center;
   color: #f8fafc;
-  margin: auto;
+
   position: absolute;
   top: 50px;
-  left:1040px;
+  right: 200px;
+  flex-direction: row;
 }
 .picpara {
   font-family: "IBM Plex Sans";
@@ -51,18 +55,19 @@
   line-height: 100%;
   text-align: center;
   color: rgba(255, 255, 255, 0.7);
-  margin-left:40px;
-  position:absolute;
+  margin-left: 40px;
+  position: absolute;
   top: 80px;
-}
+}*/
 .container {
   float: right;
-  text-align: center;
 }
+/*.imgticket {
+ float: right;
+} */
 #mail {
   width: 395px;
   height: 14px;
-
   font-family: "Manrope";
   font-style: normal;
   font-weight: 500;
@@ -90,6 +95,7 @@
   order: 1;
   flex-grow: 0;
   color: #a1a1aa;
+  padding: 16px 24px;
 }
 #tpsw {
   font-family: "Manrope";
@@ -103,6 +109,7 @@
   order: 1;
   align-self: stretch;
   flex-grow: 0;
+  padding: 16px 24px;
 
   color: #a1a1aa;
 }
@@ -114,8 +121,6 @@
   padding: 10px 174px;
   gap: 8px;
 
-  width: 395px;
-  height: 44px;
   background: #18181b;
   border-radius: 8px;
   color: white;
@@ -128,4 +133,7 @@
   font-size: 16px;
   line-height: 150%;
   color: #ffffff;
+}
+.txtcenter {
+  text-align: center;
 }

@@ -1,0 +1,269 @@
+.container {
+}
+.sidebar a {
+  display: block;
+  color: white;
+  padding: 16px;
+  text-decoration: none;
+}
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: black;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+#logout {
+  margin-top: 240px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+  margin-left: 40px;
+}
+.container {
+  padding: 10px 10px 10px 10px;
+}
+.active {
+  background: #3f3f46;
+  border-radius: 8px;
+}
+.bar {
+  display: flex;
+  background-color: white;
+  justify-content: center;
+  gap: 10px;
+  border-bottom: 1px solid #e4e4e7;
+}
+.head {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: -0.03em;
+  margin-left: 8px;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  color: #18181b;
+}
+.btn {
+  margin-left: 700px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  margin-right: 24px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: black;
+  border-radius: 6px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 24px;
+  margin-bottom: 20px;
+}
+.bgblack {
+  background-color: black;
+  display: block;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+  gap: 10px;
+  border: 1px solid #e4e4e7;
+  border-radius: 12px;
+  margin-top: 55px;
+  margin-left: 160px;
+  margin-right: 28px;
+  
+}
+.welcome {
+  color: white;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 100%;
+}
+.overview {
+  color: white;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: rgba(250, 250, 250, 0.6);
+}
+.ticketstat {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: -0.03em;
+  color: #000000;
+  margin-left: 288px;
+  margin-top: 10px;
+ 
+}
+.bgwhite{
+    background-color: white;
+    margin-left: 100px;
+}
+.summary{
+    box-sizing: border-box;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 20px;
+gap: 10px;
+background: #FFFFFF;
+border: 1px solid #E4E4E7;
+border-radius: 12px;
+margin-left: 100px;
+margin-bottom: 796px;
+
+}
+#sum{
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 800;
+font-size: 20px;
+line-height: 100%;
+}
+.overvieww{
+    display: flex;
+flex-direction: column;
+align-items: center;
+padding: 20px;
+gap: 10px;
+background: #FFFFFF;
+border: 1px solid #E4E4E7;
+border-radius: 12px;
+margin-left: 40px;
+margin-right: 40px;
+margin-bottom: 796px;
+}
+#overv{    
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 800;
+font-size: 20px;
+line-height: 100%;
+}
+.latesttickets{
+    box-sizing: border-box;   
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 10px;
+    background: #FFFFFF;
+   border: 1px solid #E4E4E7;
+   border-radius: 12px;
+   margin-left: 40px;
+   margin-bottom: 796px;
+}
+#lattickets{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 100%;
+}
+.statdiv{
+display: flex;
+flex-direction: row;
+margin-left: 288px;
+margin-right: 28px;
+
+}
+.AUA{
+display:flex;
+justify-content: space-between;
+gap:px;
+}
+.aua-text{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: -0.03em;
+      background: #F4F4F5;
+    border-radius: 6px;
+}
+.aua-num{
+    display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 4px 8px;
+gap: 10px;
+color:white;
+/* Black */
+
+background: #18181B;
+border-radius: 3px;
+}
+
+#iq{
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: -0.03em;
+color: #18181B;
+background: #F4F4F5;
+border-radius: 6px;
+}
+#ip{
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: -0.03em;
+color: #18181B;
+background: #F4F4F5;
+border-radius: 6px;
+}
+#Res{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;    
+    letter-spacing: -0.03em;    
+    color: #18181B;
+    background: #F4F4F5;
+    border-radius: 6px;
+}
+#totalticket{
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 100%;
+letter-spacing: -0.03em;
+color: #52525B;
+}
+#num{
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 800;
+font-size: 48px;
+line-height: 100%;
+letter-spacing: -0.03em;
+}
