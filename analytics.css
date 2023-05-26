@@ -1,5 +1,9 @@
-.container {
+
+body{
+  margin: 0;
+  padding: 0;
 }
+
 .sidebar a {
   display: block;
   color: white;
@@ -14,22 +18,112 @@
   position: fixed;
   height: 100%;
   overflow: auto;
+  height: 100vh;
 }
-#logout {
-  margin-top: 240px;
+.ticketsidebar{
+  font-family: 'Manrope';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 100%;
+/* identical to box height, or 16px */
+
+letter-spacing: -0.015em;
+
+/* Zinc 400 */
+
+color: #A1A1AA;
+}
+.customersidebar{
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  /* identical to box height, or 16px */
+  
+  letter-spacing: -0.015em;
+  
+  /* Zinc 400 */
+  
+  color: #A1A1AA;
+}
+.hardwaresidebar{
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  /* identical to box height, or 16px */
+  
+  letter-spacing: -0.015em;
+  
+  /* Zinc 400 */
+  
+  color: #A1A1AA;
+}
+.teamsidebar{
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  /* identical to box height, or 16px */
+  
+  letter-spacing: -0.015em;
+  
+  /* Zinc 400 */
+  
+  color: #A1A1AA;
+}
+.settingsidebar{
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  /* identical to box height, or 16px */
+  
+  letter-spacing: -0.015em;
+  
+  /* Zinc 400 */
+  
+  color: #A1A1AA;
+
+}
+.tagsidebar{
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  /* identical to box height, or 16px */
+  
+  letter-spacing: -0.015em;
+  
+  /* Zinc 400 */
+  
+  color: #A1A1AA;
+}
+.logout {
+  margin-top: 420px;
   display: flex;
   flex-direction: row;
   align-items: center;
   padding: 0px;
   gap: 8px;
   margin-left: 40px;
+  font-family: 'Manrope';
+  font-style: normal;
 }
 .container {
-  padding: 10px 10px 10px 10px;
+  padding: 0px;
 }
 .active {
   background: #3f3f46;
   border-radius: 8px;
+  font-family: 'Manrope';
+  font-style: normal;
 }
 .bar {
   display: flex;
@@ -37,24 +131,23 @@
   justify-content: center;
   gap: 10px;
   border-bottom: 1px solid #e4e4e7;
+  padding: 5px 24px;
 }
 .head {
   font-family: "Manrope";
   font-style: normal;
   font-weight: 800;
   font-size: 24px;
-  line-height: 100%;
   letter-spacing: -0.03em;
-  margin-left: 8px;
   margin-top: 25px;
   margin-bottom: 20px;
   color: #18181b;
+width: 700px;
 }
 .btn {
   margin-left: 700px;
   margin-top: 15px;
   margin-bottom: 20px;
-  margin-right: 24px;
   font-family: "Manrope";
   font-style: normal;
   font-weight: 800;
@@ -72,7 +165,11 @@
   justify-content: center;
   flex-direction: column;
   margin-top: 24px;
-  margin-bottom: 20px;
+  margin-bottom: 58px;
+}
+.sidebarinerdiv{
+padding-left:16px;
+padding-right: 16px;
 }
 .bgblack {
   background-color: black;
@@ -83,10 +180,10 @@
   gap: 10px;
   border: 1px solid #e4e4e7;
   border-radius: 12px;
-  margin-top: 55px;
-  margin-left: 160px;
-  margin-right: 28px;
-  
+  margin-top: 20px;
+  margin-left: 105px;
+  width: 1530px;
+  height: 80px;
 }
 .welcome {
   color: white;
@@ -95,6 +192,7 @@
   font-weight: 800;
   font-size: 24px;
   line-height: 100%;
+height: 10px;
 }
 .overview {
   color: white;
@@ -104,6 +202,7 @@
   font-size: 16px;
   color: rgba(250, 250, 250, 0.6);
 }
+
 .ticketstat {
   font-family: "Manrope";
   font-style: normal;
@@ -114,156 +213,268 @@
   color: #000000;
   margin-left: 288px;
   margin-top: 10px;
- 
 }
-.bgwhite{
-    background-color: white;
-    margin-left: 100px;
+.tagstattxt{
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: -0.03em;
+  color: #000000;
+  margin-left: 288px;
+  margin-top: 10px;
 }
-.summary{
-    box-sizing: border-box;
+.bgwhite {
+  background-color: white;
+  margin-left: 125px;
+  /*max-width: 1124px;*/
+
+}
+.statdiv {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 28px;
+  width: 1124px;
+  height: 316px;
+}
+.summary {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  gap: 10px;
+  background: #ffffff;
+  border: 1px solid #e4e4e7;
+  border-radius: 12px;
+  margin-left: 100px;
+  margin-bottom: 796px;
+  width: 356px;
+  height: 316px;
+}
+.sum {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  width: 100%;
+}
+
+.latesttickets {
+  box-sizing: border-box;
+
+/* Auto layout */
+
 display: flex;
 flex-direction: column;
 align-items: flex-start;
 padding: 20px;
 gap: 10px;
+
+height: 316px;
+
 background: #FFFFFF;
+/* Zinc 200 */
+
 border: 1px solid #E4E4E7;
 border-radius: 12px;
-margin-left: 100px;
-margin-bottom: 796px;
+}
+.add1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+}
 
+.lattickets {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 100%;
+  margin-top:10px ;
 }
-#sum{
-    font-family: 'Manrope';
-font-style: normal;
-font-weight: 800;
-font-size: 20px;
-line-height: 100%;
+.AUA {
+  /*display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  
+  padding: 4px 8px;
+*/
+  background: #f4f4f5;
+  border-radius: 6px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px 16px 12px 16px;
+  gap: 104px;
+
+  width: 284px;
+  height: 24px;
 }
-.overvieww{
-    display: flex;
+.aua-text {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: -0.03em;
+}
+.aua-num {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 4px 8px;
+  gap: 10px;
+  color: white;
+  background: #18181b;
+  border-radius: 3px;
+}
+.iq {
+  /*display: flex;
+  justify-content: space-between;
+  gap: 110px;
+  background: #f4f4f5;
+  border-radius: 6px;
+  padding: 4px 8px;
+*/
+  background: #f4f4f5;
+  border-radius: 6px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px 16px 12px 16px;
+  gap: 180px;
+  padding: 12px 16px 12px 16px;
+
+  width: 284px;
+  height: 24px;
+}
+.iq-txt {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: -0.03em;
+  color: #18181b;
+}
+.iq-num {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 4px 8px;
+  gap: 10px;
+  color: white;
+  background: #18181b;
+  border-radius: 3px;
+}
+.ip {
+  background: #f4f4f5;
+  border-radius: 6px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px 16px 12px 16px;
+  gap: 160px;
+
+  width: 284px;
+  height: 24px;
+}
+.ip-txt {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: -0.03em;
+  color: #18181b;
+}
+.ip-num {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 4px 8px;
+  gap: 10px;
+  color: white;
+  background: #18181b;
+  border-radius: 3px;
+}
+.res {
+  background: #f4f4f5;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px 16px 12px 16px;
+  gap: 175px;
+
+  width: 284px;
+  height: 24px;
+}
+.res-txt {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: -0.03em;
+  color: #18181b;
+}
+.res-num {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 4px 8px;
+  gap: 10px;
+  color: black;
+  background: #ffffff;
+  border-radius: 3px;
+}
+.customerissues{
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  gap: 10px;
+  background: #ffffff;
+  border: 1px solid #e4e4e7;
+  border-radius: 12px;
+  margin-left: 100px;
+  margin-bottom: 796px;
+  width: 356px;
+  height: 316px;
+}
+.overviewdiv2{
+  box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
 flex-direction: column;
-align-items: center;
+align-items: flex-start;
 padding: 20px;
 gap: 10px;
+
+width: 356px;
+height: 300px;
+
 background: #FFFFFF;
+/* Zinc 200 */
+
 border: 1px solid #E4E4E7;
 border-radius: 12px;
-margin-left: 40px;
-margin-right: 40px;
-margin-bottom: 796px;
-}
-#overv{    
-font-family: 'Manrope';
-font-style: normal;
-font-weight: 800;
-font-size: 20px;
-line-height: 100%;
-}
-.latesttickets{
-    box-sizing: border-box;   
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 20px;
-    gap: 10px;
-    background: #FFFFFF;
-   border: 1px solid #E4E4E7;
-   border-radius: 12px;
-   margin-left: 40px;
-   margin-bottom: 796px;
-}
-#lattickets{
-    font-family: 'Manrope';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 20px;
-    line-height: 100%;
-}
-.statdiv{
-display: flex;
-flex-direction: row;
-margin-left: 288px;
-margin-right: 28px;
-
-}
-.AUA{
-display:flex;
-justify-content: space-between;
-gap:px;
-}
-.aua-text{
-    font-family: 'Manrope';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 100%;
-    letter-spacing: -0.03em;
-      background: #F4F4F5;
-    border-radius: 6px;
-}
-.aua-num{
-    display: flex;
-flex-direction: row;
-justify-content: flex-end;
-align-items: center;
-padding: 4px 8px;
-gap: 10px;
-color:white;
-/* Black */
-
-background: #18181B;
-border-radius: 3px;
-}
-
-#iq{
-    font-family: 'Manrope';
-font-style: normal;
-font-weight: 600;
-font-size: 16px;
-line-height: 100%;
-letter-spacing: -0.03em;
-color: #18181B;
-background: #F4F4F5;
-border-radius: 6px;
-}
-#ip{
-    font-family: 'Manrope';
-font-style: normal;
-font-weight: 600;
-font-size: 16px;
-line-height: 100%;
-letter-spacing: -0.03em;
-color: #18181B;
-background: #F4F4F5;
-border-radius: 6px;
-}
-#Res{
-    font-family: 'Manrope';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 100%;    
-    letter-spacing: -0.03em;    
-    color: #18181B;
-    background: #F4F4F5;
-    border-radius: 6px;
-}
-#totalticket{
-    font-family: 'Manrope';
-font-style: normal;
-font-weight: 600;
-font-size: 14px;
-line-height: 100%;
-letter-spacing: -0.03em;
-color: #52525B;
-}
-#num{
-    font-family: 'Manrope';
-font-style: normal;
-font-weight: 800;
-font-size: 48px;
-line-height: 100%;
-letter-spacing: -0.03em;
 }
