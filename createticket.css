@@ -1047,7 +1047,7 @@ flex-grow: 1;
 }
 
 /* Modal code */
-.container {
+.backgroundblur {
   position: fixed;
   inset: 0;
   height: 100%;
@@ -1063,9 +1063,9 @@ flex-grow: 1;
   max-width: 750px;
   z-index: 65;
   /* height: 935px; */
-  height: 950px;
+  height: 500px;
   width: 100%;
-  background: white;
+  background: white;  
 }
 
 .information {
@@ -1077,7 +1077,7 @@ flex-grow: 1;
 
   width: 692px;
   /* height: 663px; */
-  height: 610px;
+  height: 150px;
   /* Inside auto layout */
 
   flex: none;
