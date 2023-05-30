@@ -328,46 +328,57 @@
          <img class="custinfopic" src="pictures/step1.png" alt="">
                <p class="custinfo">Step 1</p>    
               <img class="connect1" src="pictures/connector.png" alt="">            
-               <img class="repticketpic" src="pictures/baseStepElements1.png" alt="">
+               <img class="repticketpic" src="pictures/baseStep2black.png" alt="">
                <p class="repticket">Step 2</p>
                <img class="connect2" src="pictures/connector.png" alt="">
                <img class="ticketissuedpic" src="pictures/baseStepElements1.png" alt="">
                <p class="ticketissue">Step 3</p> 
       </div>
       <div class="customerinfodiv"> 
-         <p class="selecthardware" >Customer Info</p>
-         <p class="custinfodivpara">Complete information related to the customer is required.</p>
+         <p class="selecthardware" >Hardware Info</p>
+         <p class="custinfodivpara">Complete information related to the repairing of the hardware</p>
      </div>
      <!-- Information FormDiv -->
                  <div class="information">
                      <!-- Customer email and Order no -->
                     <div class="emailandaddress">
                     <div class="mailtxtandbox">
-                     <p class="customeremailtxt">Select Hardware </p>
-                     <textarea name="mailtxtbox" id="mailtxtbox" cols="30"></textarea>
+                     <p class="customeremailtxt">Select Hardware <span id="star">*</span></p>
+                     <textarea name="mailtxtbox" id="mailtxtbox" placeholder="Starlite -12 Poseidon" cols="30"></textarea>
                     </div>                  
                     </div>
 
                     <div class="emailandaddress">
                         <div class="mailtxtandbox">
-                         <p class="customeremailtxt" >Customer Claimed Issues</p>
-                         <textarea name="mailtxtbox" id="mailtxtbox" cols="30"></textarea>
+                         <p class="customeremailtxt" >Customer Claimed Issues <span id="star">*</span></p>
+                         <textarea name="mailtxtbox" id="mailtxtbox" placeholder="Describe Issue" cols="30"></textarea>
                         </div>                  
+                        </div>
+                        <div>
+                            <p class="waract">is warranty still active?</p>
+                            <input type="radio" id="radiobtnYes">
+                           <label for="warrantyactiveyes" id="radiobtnlabel1" name="rdbtn" value="radiobtnYes">Yes</label>
+                           <input type="radio" id="radiobtnNo">
+                           <label for="warrantyactiveno" id="radiobtnlabel2" name="rdbtn" value="radiobtnNo">No</label>
+                           
+                           <!-- id="html" name="fav_language" value="HTML" -->
                         </div>
 
                         <div class="emailandaddress">
                             <div class="mailtxtandbox">
-                             <p class="customeremailtxt">Expiration Date</p>
-                             <textarea name="mailtxtbox" id="mailtxtbox" cols="30"></textarea>
+                             <p class="customeremailtxt">Expiration Date <span id="star">*</span></p>
+                             <textarea name="mailtxtbox" id="mailtxtbox" placeholder="Enter warranty expiration" cols="30"></textarea>
+                             <!-- <input type="text"> -->
                             </div>                  
                             </div>
-                </div>             
-                            </div>
+                </div>   
+                <div class="fieldandnextbtn">
+                    <p id="reqfield"><span id="star">*</span> fields are required</p>
+                    <button class="nextbtn">
+                        <p id="nextbtntxt">Next ></p>
+                    </button>
+                </div>     
                  </div>
-                 <div class="fieldandnextbtn">
-                     <button class="nextbtn">
-                         <p id="nextbtntxt">Next></p>
-                     </button>
                  </div>
                  
     </div>
