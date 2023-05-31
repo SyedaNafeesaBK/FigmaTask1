@@ -1,0 +1,139 @@
+.img {
+  position: absolute;
+  width: 720px;
+  height: 1024px;
+  left: 720px;
+  top: 0px;
+}
+.form {
+  float: left;
+  font-family: "Manrope", sans-serif;
+  font-family: "Space Mono", monospace;
+  background-color: #ffffff;
+  max-width: 400px;
+  margin: auto;
+}
+.loginheading {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 100%;
+  color: #18181b;
+}
+.container1 {
+  display: flex;
+  padding-left: 10px 20px 20px 10px;
+}
+.paragraph {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%;
+  color: #52525b;
+}
+/*.picheading {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 42px;
+  text-align: center;
+  color: #f8fafc;
+
+  position: absolute;
+  top: 50px;
+  right: 200px;
+  flex-direction: row;
+}
+.picpara {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.7);
+  margin-left: 40px;
+  position: absolute;
+  top: 80px;
+}*/
+.container {
+  float: right;
+}
+/*.imgticket {
+ float: right;
+} */
+#mail {
+  width: 395px;
+  height: 14px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 100%;
+  color: #27272a;
+}
+#psw {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 100%;
+  color: #27272a;
+}
+#tmail {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  border: 1px solid #e4e4e7;
+  border-radius: 8px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  color: #a1a1aa;
+  padding: 16px 24px;
+}
+#tpsw {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  border: 1px solid #e4e4e7;
+  border-radius: 8px;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  padding: 16px 24px;
+
+  color: #a1a1aa;
+}
+#login {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 174px;
+  gap: 8px;
+
+  background: #18181b;
+  border-radius: 8px;
+  color: white;
+  width: 42px;
+  height: 24px;
+
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  color: #ffffff;
+}
+.txtcenter {
+  text-align: center;
+}

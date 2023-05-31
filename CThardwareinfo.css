@@ -1,0 +1,2119 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar a {
+  display: block;
+  color: white;
+  padding: 16px;
+  text-decoration: none;
+}
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: black;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  height: 100vh;
+}
+.ticketsidebar {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  /* identical to box height, or 16px */
+
+  letter-spacing: -0.015em;
+
+  /* Zinc 400 */
+
+  color: #a1a1aa;
+}
+.customersidebar {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  /* identical to box height, or 16px */
+
+  letter-spacing: -0.015em;
+
+  /* Zinc 400 */
+
+  color: #a1a1aa;
+}
+.hardwaresidebar {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  /* identical to box height, or 16px */
+
+  letter-spacing: -0.015em;
+
+  /* Zinc 400 */
+
+  color: #a1a1aa;
+}
+.teamsidebar {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  /* identical to box height, or 16px */
+
+  letter-spacing: -0.015em;
+
+  /* Zinc 400 */
+
+  color: #a1a1aa;
+}
+.settingsidebar {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  /* identical to box height, or 16px */
+
+  letter-spacing: -0.015em;
+
+  /* Zinc 400 */
+
+  color: #a1a1aa;
+}
+.tagsidebar {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  /* identical to box height, or 16px */
+
+  letter-spacing: -0.015em;
+
+  /* Zinc 400 */
+
+  color: #a1a1aa;
+}
+.logout {
+  margin-top: 420px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+  margin-left: 40px;
+  font-family: "Manrope";
+  font-style: normal;
+}
+.container {
+  padding: 0px;
+}
+.active {
+  background: #3f3f46;
+  border-radius: 8px;
+  font-family: "Manrope";
+  font-style: normal;
+}
+.bar {
+  display: flex;
+  background-color: white;
+  justify-content: center;
+  gap: 10px;
+  border-bottom: 1px solid #e4e4e7;
+  padding: 5px 24px;
+}
+.head {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  letter-spacing: -0.03em;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  color: #18181b;
+  width: 700px;
+}
+/* .btn {
+    margin-left: 700px;
+    /* margin-right: 25px; */
+/* margin-top: 15px;
+    margin-bottom: 20px;
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: black;
+    border-radius: 6px;
+  */
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 24px;
+  margin-bottom: 58px;
+}
+.sidebarinerdiv {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.ticketstatsmain {
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 28px;
+  width: 1124px;
+  height: 316px;
+}
+.bgblack {
+  background-color: black;
+  display: block;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+  gap: 10px;
+  border: 1px solid #e4e4e7;
+  border-radius: 12px;
+  margin-top: 20px;
+  margin-left: 105px;
+  width: 100%;
+  margin-right: 100px;
+  /* width: 1530px;
+    height: 80px; */
+}
+.welcome {
+  color: white;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 100%;
+  height: 10px;
+}
+.overview {
+  color: white;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: rgba(250, 250, 250, 0.6);
+}
+
+.ticketstat {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: -0.03em;
+  color: #000000;
+  margin-left: 288px;
+  margin-top: 10px;
+}
+.tagstattxt {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: -0.03em;
+  color: #000000;
+  margin-left: 288px;
+  margin-top: 10px;
+}
+.bgwhite {
+  background-color: white;
+  margin-left: 125px;
+  /*max-width: 1124px;*/
+}
+.statdiv {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 28px;
+  width: 1124px;
+  height: 316px;
+}
+.summary {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  gap: 10px;
+  background: #ffffff;
+  border: 1px solid #e4e4e7;
+  border-radius: 12px;
+  margin-left: 100px;
+  margin-bottom: 796px;
+  max-width: 356px;
+  /* height: 316px; */
+}
+.sum {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  width: 100%;
+}
+
+.latesttickets {
+  /* box-sizing: border-box;
+  
+    /* Auto layout */
+  /* display: flex; */
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  gap: 10px;
+
+  max-width: 356px;
+  /* height: 300px; */
+
+  background: #ffffff;
+  /* Zinc 200 */
+
+  border: 1px solid #e4e4e7;
+  border-radius: 12px;
+}
+
+.lattickets {
+  width: 132px;
+  height: 20px;
+
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 100%;
+  /* identical to box height, or 20px */
+
+  letter-spacing: -0.03em;
+
+  /* Black */
+
+  color: #18181b;
+}
+.AUA {
+  background: #f4f4f5;
+  border-radius: 6px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px 16px 12px 16px;
+  gap: 104px;
+
+  width: 284px;
+  height: 24px;
+}
+.aua-text {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: -0.03em;
+}
+.aua-num {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 4px 8px;
+  gap: 10px;
+  color: white;
+  background: #18181b;
+  border-radius: 3px;
+}
+.iq {
+  /*display: flex;
+    justify-content: space-between;
+    gap: 110px;
+    background: #f4f4f5;
+    border-radius: 6px;
+    padding: 4px 8px;
+  */
+  background: #f4f4f5;
+  border-radius: 6px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px 16px 12px 16px;
+  gap: 180px;
+  padding: 12px 16px 12px 16px;
+
+  width: 284px;
+  height: 24px;
+}
+.iq-txt {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: -0.03em;
+  color: #18181b;
+}
+.iq-num {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 4px 8px;
+  gap: 10px;
+  color: white;
+  background: #18181b;
+  border-radius: 3px;
+}
+.ip {
+  background: #f4f4f5;
+  border-radius: 6px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px 16px 12px 16px;
+  gap: 160px;
+
+  width: 284px;
+  height: 24px;
+}
+.ip-txt {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: -0.03em;
+  color: #18181b;
+}
+.ip-num {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 4px 8px;
+  gap: 10px;
+  color: white;
+  background: #18181b;
+  border-radius: 3px;
+}
+.res {
+  background: #f4f4f5;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px 16px 12px 16px;
+  gap: 175px;
+
+  width: 284px;
+  height: 24px;
+}
+.res-txt {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: -0.03em;
+  color: #18181b;
+}
+.res-num {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 4px 8px;
+  gap: 10px;
+  color: black;
+  background: #ffffff;
+  border-radius: 3px;
+}
+.add1 {
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 14px 10px;
+  gap: 10px;
+
+  width: 316px;
+  height: 42px;
+
+  /* Zinc 200 */
+
+  border-bottom: 1px solid #e4e4e7;
+}
+.add2 {
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 14px 10px;
+  gap: 10px;
+
+  width: 316px;
+  height: 42px;
+
+  /* Zinc 200 */
+
+  border-bottom: 1px solid #e4e4e7;
+}
+.add3 {
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 14px 10px;
+  gap: 10px;
+
+  width: 316px;
+  height: 42px;
+
+  /* Zinc 200 */
+
+  border-bottom: 1px solid #e4e4e7;
+}
+.add4 {
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 14px 10px;
+  gap: 10px;
+
+  width: 316px;
+  height: 42px;
+
+  /* Zinc 200 */
+
+  border-bottom: 1px solid #e4e4e7;
+}
+.viewallbtn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+
+  width: 316px;
+  height: 34px;
+  /* Black */
+
+  background: #18181b;
+  border-radius: 4px;
+
+  /* Inside auto layout */
+  order: 1;
+}
+.customerissues {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  gap: 10px;
+  background: #ffffff;
+  border: 1px solid #e4e4e7;
+  border-radius: 12px;
+  margin-left: 100px;
+  margin-bottom: 796px;
+  width: 356px;
+  height: 316px;
+}
+.custissuestxt {
+  width: 158px;
+  height: 20px;
+
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 100%;
+  /* identical to box height, or 20px */
+
+  text-align: center;
+  letter-spacing: -0.03em;
+
+  /* Black */
+
+  color: #18181b;
+}
+.totalissuestxt {
+  width: 89px;
+  height: 14px;
+
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 100%;
+  /* identical to box height, or 14px */
+
+  text-align: center;
+  letter-spacing: -0.03em;
+
+  /* Zinc 600 */
+
+  color: #52525b;
+}
+.custissuepic {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 32px;
+
+  width: 316px;
+  height: 200px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.ovrviewtxt {
+  width: 271px;
+  height: 20px;
+
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 100%;
+  /* identical to box height, or 20px */
+
+  letter-spacing: -0.03em;
+
+  /* Black */
+
+  color: #18181b;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.totaltagstxt {
+  width: 74px;
+  height: 16px;
+
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 100%;
+  /* identical to box height, or 16px */
+
+  letter-spacing: -0.03em;
+
+  /* Black */
+
+  color: #18181b;
+}
+.totaltagnum6 {
+  width: 41px;
+  height: 32px;
+
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 100%;
+  /* identical to box height, or 32px */
+
+  letter-spacing: -0.03em;
+
+  /* Black */
+
+  color: #18181b;
+}
+.totalcusttxt {
+  width: 164px;
+  height: 16px;
+
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 100%;
+  /* identical to box height, or 16px */
+
+  letter-spacing: -0.03em;
+
+  /* Black */
+
+  color: #18181b;
+}
+.totalcustnum06 {
+  width: 41px;
+  height: 32px;
+
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 100%;
+  /* identical to box height, or 32px */
+
+  letter-spacing: -0.03em;
+
+  /* Black */
+
+  color: #18181b;
+}
+.ovrviewtxt3 {
+  width: 88px;
+  height: 20px;
+
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 100%;
+  /* identical to box height, or 20px */
+
+  text-align: center;
+  letter-spacing: -0.03em;
+
+  /* Black */
+
+  color: #18181b;
+}
+.totalissues6txt {
+  width: 89px;
+  height: 14px;
+
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 100%;
+  /* identical to box height, or 14px */
+
+  text-align: center;
+  letter-spacing: -0.03em;
+
+  /* Zinc 600 */
+
+  color: #52525b;
+}
+.graphpic {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 32px;
+
+  width: 316px;
+  height: 200px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.overviewdiv2 {
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  gap: 10px;
+
+  width: 356px;
+  height: 300px;
+
+  background: #ffffff;
+  /* Zinc 200 */
+
+  border: 1px solid #e4e4e7;
+  border-radius: 12px;
+}
+.tagstatsmain {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 28px;
+  width: 1124px;
+  height: 316px;
+}
+.overviewgraphdiv {
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  gap: 10px;
+
+  width: 356px;
+  height: 300px;
+
+  background: #ffffff;
+  /* Zinc 200 */
+
+  border: 1px solid #e4e4e7;
+  border-radius: 12px;
+}
+
+/* Modal code */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  /* margin: auto; */
+  padding: 20px;
+  /* border: 1px solid #888; */
+  width: 80%;
+}
+.createtickethead {
+  width: 157px;
+  height: 24px;
+
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 100%;
+  /* identical to box height, or 24px */
+
+  /* Black */
+
+  color: #18181b;
+  margin-top: 32px;
+  margin-right: 299.5px;
+  margin-left: 275px;
+}
+.createticketbar {
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px 24px;
+  gap: 8px;
+
+  width: 692px;
+  height: 56px;
+
+  /* Zinc 50 */
+
+  background: #fafafa;
+  /* Zinc 200 */
+
+  border: 1px solid #e4e4e7;
+  border-radius: 8px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.custinfo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+  width: 110px;
+  height: 24px;
+}
+
+.ticketissue {
+  width: 90px;
+  height: 22px;
+
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  /* identical to box height, or 157% */
+
+  font-feature-settings: "liga" off;
+
+  /* Zinc 600 */
+
+  color: #52525b;
+}
+.custinfopic {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 7px;
+
+  width: 24px;
+  height: 24px;
+
+  /* Black */
+
+  /* background: #18181b; */
+  border-radius: 68px;
+}
+.connect1 {
+  width: 80px;
+}
+.connect2 {
+  width: 100px;
+}
+/* .connect1 {
+    
+  width: 125px;
+  height: 1px;
+  
+  
+  background: #D4D4D8;
+  
+  
+  flex: none;
+  order: 1;
+  flex-grow: 1;
+  }
+  .connect2{
+    width: 125px;
+  height: 1px;
+  
+  
+  background: #D4D4D8;
+  
+  
+  flex: none;
+  order: 3;
+  flex-grow: 1;
+  } */
+.repticketpic {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 7px;
+
+  width: 24px;
+  height: 24px;
+
+  /* Zinc 300 */
+
+  border-radius: 68px;
+}
+.repticket {
+  width: 90px;
+  height: 22px;
+
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  /* identical to box height, or 157% */
+
+  /* font-feature-settings: "liga" off; */
+
+  /* Zinc 600 */
+
+  color: #52525b;
+}
+.ticketissuedpic {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 7px;
+
+  width: 24px;
+  height: 24px;
+
+  /* Zinc 300 */
+
+  /* background: #d4d4d8; */
+  border-radius: 68px;
+}
+.customerinfodiv {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 2px;
+
+  /* width: 692px;
+    height: 56px; */
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.custinfodivpara {
+  width: 547px;
+  height: 18px;
+
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  /* identical to box height, or 18px */
+
+  /* Zinc 600 */
+
+  color: #52525b;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.w3btn {
+  margin-left: 700px;
+  /* margin-right: 25px; */
+  margin-top: 15px;
+  margin-bottom: 20px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: black;
+  border-radius: 6px;
+}
+
+/* Modal code */
+.backgroundblur {
+  position: fixed;
+  inset: 0;
+  height: 100%;
+  z-index: 60;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(3px);
+}
+.modal {
+  position: fixed;
+  margin: auto;
+  inset: 0;
+  max-width: 750px;
+  z-index: 65;
+  /* height: 935px; */
+  height: 920px;
+  width: 100%;
+  background: white;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 24px;
+  gap: 24px;
+
+  width: 692px;
+  /* height: 663px; */
+  height: 540px;
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+
+  box-sizing: border-box;
+  border: 1px solid #e4e4e7;
+  border-radius: 8px;
+}
+#selecthardwarereq{
+    width: 310px;
+    height: 18px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 150%;
+    /* identical to box height, or 18px */
+    
+    
+    /* Red 600 */
+    
+    color: #DC2626;
+}
+    .switch {
+        position: relative;
+        display: inline-block;
+        width: 35px;
+        height: 65px;
+      }
+      
+        .slider {
+            position: absolute;
+            cursor: pointer;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: #ccc;
+            -webkit-transition: .4s;
+            transition: .4s;
+          }
+          .slider:before {
+            position: absolute;
+            content: "";
+            height: 15px;
+            width: 20px;
+            left: 4px;
+            bottom: 4px;
+            background-color: white;
+            -webkit-transition: .4s;
+            transition: .4s;
+          }
+          .switch input { 
+            opacity: 0;
+            width: 0;
+            height: 0;
+          }
+          input:checked + .slider {
+            background-color: #2196F3;
+          }
+          
+          input:focus + .slider {
+            box-shadow: 0 0 1px #2196F3;
+          }
+          
+          input:checked + .slider:before {
+            -webkit-transform: translateX(26px);
+            -ms-transform: translateX(26px);
+            transform: translateX(26px);
+          }
+          
+          /* Rounded sliders */
+          .slider.round {
+            border-radius: 34px;
+          }
+          
+          .slider.round:before {
+            border-radius: 50%;
+          }
+
+.emailandaddress {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+
+  width: 644px;
+  height: 68px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+}
+.customeremailtxt {
+  width: 98px;
+  height: 18px;
+
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 150%;
+  /* identical to box height, or 18px */
+
+  /* Black */
+
+  color: #18181b;
+}
+.ordernum {
+  width: 310px;
+  height: 18px;
+
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 150%;
+  /* identical to box height, or 18px */
+
+  /* Black */
+
+  color: #18181b;
+}
+#mailtxtbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 16px;
+  gap: 16px;
+
+  width: 310px;
+  height: 42px;
+
+  /* White */
+
+  background: #ffffff;
+  /* Zinc 200 */
+
+  border: 1px solid #e4e4e7;
+  border-radius: 6px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+#ordernotxtbox {
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 16px;
+  gap: 16px;
+
+  width: 276px;
+  height: 42px;
+
+  /* White */
+
+  background: #ffffff;
+  /* Zinc 200 */
+
+  border: 1px solid #e4e4e7;
+  border-radius: 0px 6px 6px 0px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 1;
+}
+.ordernumtxtboxpic {
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 8px;
+  gap: 16px;
+
+  width: 34px;
+  height: 42px;
+
+  /* Zinc 100 */
+
+  background: #f4f4f5;
+  /* Zinc 200 */
+
+  border-width: 1px 0px 1px 1px;
+  border-style: solid;
+  border-color: #e4e4e7;
+  border-radius: 6px 0px 0px 6px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.signandtxtbox {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  padding: 0px;
+
+  width: 310px;
+  height: 42px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.mailtxtandbox {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 1px;
+
+  width: 310px;
+  height: 68px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+}
+.ordernotxtandbox {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+
+  width: 310px;
+  height: 68px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.firstandlastname {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+
+  width: 644px;
+  height: 68px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.firstnameandtxtbox {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+
+  width: 310px;
+  height: 68px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+}
+.firstnametxt {
+  width: 98px;
+  height: 18px;
+
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 150%;
+  /* identical to box height, or 18px */
+
+  /* Black */
+
+  color: #18181b;
+}
+#fnametxtbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 16px;
+  gap: 16px;
+
+  width: 310px;
+  height: 42px;
+
+  /* White */
+
+  background: #ffffff;
+  /* Zinc 200 */
+
+  border: 1px solid #e4e4e7;
+  border-radius: 6px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.lastnameandtxtbox {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+
+  width: 310px;
+  height: 68px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+#lastnametxtbox {
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 16px;
+  gap: 16px;
+
+  width: 310px;
+  height: 42px;
+
+  /* White */
+
+  background: #ffffff;
+  /* Zinc 200 */
+
+  border: 1px solid #e4e4e7;
+  border-radius: 6px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.lastnametxt {
+  width: 98px;
+  height: 18px;
+
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 150%;
+  /* identical to box height, or 18px */
+
+  /* Black */
+
+  color: #18181b;
+}
+.customeraddress {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+
+  width: 650px;
+  height: 68px;
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.customeraddtxt {
+  width: 644px;
+  height: 18px;
+
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 150%;
+
+  color: #18181b;
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+#custaddtxtbox {
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 12px 16px;
+  /* gap: 16px; */
+
+  /* width: 644px; */
+  height: 50px;
+
+  /* White */
+
+  background: #ffffff;
+  /* Zinc 200 */
+
+  border: 1px solid #e4e4e7;
+  border-radius: 6px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.countryandstate {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+
+  width: 644px;
+  height: 68px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 3;
+  align-self: stretch;
+}
+.countryandtxtbox {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+
+  width: 310px;
+  height: 68px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+}
+.countrytxt {
+  width: 310px;
+  height: 18px;
+
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 150%;
+  /* identical to box height, or 18px */
+
+  /* Black */
+
+  color: #18181b;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+#countrytxtbox {
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 16px;
+  gap: 16px;
+
+  width: 310px;
+  height: 42px;
+
+  /* White */
+
+  background: #ffffff;
+  /* Zinc 200 */
+
+  border: 1px solid #e4e4e7;
+  border-radius: 6px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.stateandtxtbox {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+
+  width: 310px;
+  height: 68px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 1;
+}
+.statetxt {
+  width: 310px;
+  height: 18px;
+
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 150%;
+  /* identical to box height, or 18px */
+
+  /* Black */
+
+  color: #18181b;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+#statetxtbox {
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 16px;
+  gap: 16px;
+
+  width: 310px;
+  height: 42px;
+
+  /* White */
+
+  background: #ffffff;
+  /* Zinc 200 */
+
+  border: 1px solid #e4e4e7;
+  border-radius: 6px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.cityandzipcode {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+
+  width: 644px;
+  height: 68px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 4;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.cityandtxtbox {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+
+  width: 310px;
+  height: 68px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+}
+.citytxt {
+  width: 310px;
+  height: 18px;
+
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 150%;
+  /* identical to box height, or 18px */
+
+  /* Black */
+
+  color: #18181b;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+#citytxtbox {
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 16px;
+  gap: 16px;
+
+  width: 310px;
+  height: 42px;
+
+  /* White */
+
+  background: #ffffff;
+  /* Zinc 200 */
+
+  border: 1px solid #e4e4e7;
+  border-radius: 6px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.zipandtxtbox {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+
+  width: 310px;
+  height: 68px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 1;
+}
+.ziptxt {
+  width: 310px;
+  height: 18px;
+
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 150%;
+  /* identical to box height, or 18px */
+
+  /* Black */
+
+  color: #18181b;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+#ziptxtbox {
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 16px;
+  gap: 16px;
+
+  width: 310px;
+  height: 42px;
+
+  /* White */
+
+  background: #ffffff;
+  /* Zinc 200 */
+
+  border: 1px solid #e4e4e7;
+  border-radius: 6px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.phonenumber {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 2px;
+
+  width: 310px;
+  height: 68px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 5;
+  flex-grow: 0;
+}
+.phonetxt {
+  width: 310px;
+  height: 18px;
+
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 150%;
+  /* identical to box height, or 18px */
+
+  /* Black */
+
+  color: #18181b;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+#phonenumtxtbox {
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 16px;
+  gap: 2px;
+
+  width: 310px;
+  height: 42px;
+
+  /* White */
+
+  background: #ffffff;
+  /* Zinc 200 */
+
+  border: 1px solid #e4e4e7;
+  border-radius: 6px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.reuiredfield {
+  width: 108px;
+  height: 12px;
+
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%;
+  /* identical to box height, or 12px */
+
+  /* Red 600 */
+
+  color: #dc2626;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.fieldandnextbtn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: right;
+  padding-left: 610px;
+  gap: 16px;
+
+  width: 692px;
+  height: 45px;
+  margin-top: 20px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.nextbtn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 24px;
+  gap: 8px;
+
+  width: 105px;
+  height: 45px;
+  background: #18181b;
+  border-radius: 6px;
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+#nextbtntxt {
+  width: 31px;
+  height: 21px;
+
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  /* identical to box height, or 21px */
+
+  /* White */
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+#selecthardware {
+  width: 310px;
+  height: 18px;
+
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 150%;
+  /* identical to box height, or 18px */
+
+  /* Black */
+
+  color: #18181b;
+}
+.toggle{
+    flex-direction: row;
+}
+.yes{
+    width: 20px;
+    height: 18px;
+    
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 150%;
+    /* identical to box height, or 18px */
+    
+    
+    /* Zinc 600 */
+    
+    color: #52525B;
+    
+}
+.no{
+    width: 16px;
+    height: 18px;
+    
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 150%;
+    /* identical to box height, or 18px */
+    
+    
+    /* Zinc 600 */
+    
+    color: #52525B;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+.customerclaimeddiv{
+    box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 20px;
+gap: 16px;
+margin-top: 20px;
+width: 650px;
+height: 380px;
+
+/* Zinc 200 */
+
+border: 1px solid #E4E4E7;
+border-radius: 4px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.custclaimhead{
+    width: 644px;
+height: 14px;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 100%;
+/* identical to box height, or 14px */
+
+
+/* Black */
+
+color: #18181B;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+#descriptiontxtbox{
+    box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 12px 16px;
+gap: 16px;
+
+width: 620px;
+height: 50px;
+
+/* White */
+
+background: #FFFFFF;
+/* Zinc 200 */
+
+border: 1px solid #E4E4E7;
+border-radius: 6px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
