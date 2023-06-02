@@ -1060,10 +1060,11 @@ flex-grow: 1;
   position: fixed;
   margin: auto;
   inset: 0;
-  max-width: 750px;
+  /* max-width: 750px; */
+  /* height: 1259px; */
   z-index: 65;
-  /* height: 935px; */
-  height: 500px;
+  /* height: 700px; */
+  /* height: 500px; */
   width: 100%;
   background: white;  
 }

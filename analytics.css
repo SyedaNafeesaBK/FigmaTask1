@@ -33,6 +33,7 @@ body {
 
   color: #a1a1aa;
 }
+
 .customersidebar {
   font-family: "Manrope";
   font-style: normal;
@@ -1016,7 +1017,7 @@ flex-grow: 1;
   flex-grow: 0;
 }
 /* The Close Button */
-.close {
+#close {
   color: #aaaaaa;
   float: right;
   font-size: 28px;
@@ -1047,7 +1048,8 @@ flex-grow: 1;
 }
 
 /* Modal code */
-.container {
+#backgroundblur {
+  display: none;
   position: fixed;
   inset: 0;
   height: 100%;
@@ -1056,7 +1058,8 @@ flex-grow: 1;
   background: rgba(0, 0, 0, 0.3);
   backdrop-filter: blur(3px);
 }
-.modal {
+#mymodal {
+  display: none;
   position: fixed;
   margin: auto;
   inset: 0;
@@ -1066,6 +1069,7 @@ flex-grow: 1;
   height: 950px;
   width: 100%;
   background: white;
+  border-radius: 12px;
 }
 
 .information {
@@ -1894,36 +1898,19 @@ flex-grow: 1;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 12px 24px;
   gap: 8px;
-
   width: 105px;
-  height: 45px;
   background: #18181b;
   border-radius: 6px;
-
-  flex: none;
-  order: 1;
-  flex-grow: 0;
 }
 #nextbtntxt {
-  width: 31px;
-  height: 21px;
+  /* width: 31px;
+  height: 21px; */
 
   font-family: "Manrope";
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 150%;
-  /* identical to box height, or 21px */
-
-  /* White */
-
+  /* line-height: 150%; */
   color: #ffffff;
-
-  /* Inside auto layout */
-
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }

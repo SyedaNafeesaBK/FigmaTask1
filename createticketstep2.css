@@ -33,6 +33,7 @@ body {
 
   color: #a1a1aa;
 }
+
 .customersidebar {
   font-family: "Manrope";
   font-style: normal;
@@ -143,21 +144,21 @@ body {
   width: 700px;
 }
 /* .btn {
-      margin-left: 700px;
-      /* margin-right: 25px; */
+  margin-left: 700px;
+  /* margin-right: 25px; */
 /* margin-top: 15px;
-      margin-bottom: 20px;
-      font-family: "Manrope";
-      font-style: normal;
-      font-weight: 800;
-      font-size: 18px;
-      line-height: 100%;
-      letter-spacing: 0.03em;
-      text-transform: uppercase;
-      color: #ffffff;
-      background-color: black;
-      border-radius: 6px;
-    */
+  margin-bottom: 20px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: black;
+  border-radius: 6px;
+*/
 .logo {
   display: flex;
   align-items: center;
@@ -195,7 +196,7 @@ body {
   width: 100%;
   margin-right: 100px;
   /* width: 1530px;
-      height: 80px; */
+  height: 80px; */
 }
 .welcome {
   color: white;
@@ -276,8 +277,8 @@ body {
 
 .latesttickets {
   /* box-sizing: border-box;
-    
-      /* Auto layout */
+
+  /* Auto layout */
   /* display: flex; */
   flex-direction: column;
   align-items: flex-start;
@@ -345,12 +346,12 @@ body {
 }
 .iq {
   /*display: flex;
-      justify-content: space-between;
-      gap: 110px;
-      background: #f4f4f5;
-      border-radius: 6px;
-      padding: 4px 8px;
-    */
+  justify-content: space-between;
+  gap: 110px;
+  background: #f4f4f5;
+  border-radius: 6px;
+  padding: 4px 8px;
+*/
   background: #f4f4f5;
   border-radius: 6px;
 
@@ -907,30 +908,30 @@ body {
   width: 100px;
 }
 /* .connect1 {
-      
-    width: 125px;
-    height: 1px;
-    
-    
-    background: #D4D4D8;
-    
-    
-    flex: none;
-    order: 1;
-    flex-grow: 1;
-    }
-    .connect2{
-      width: 125px;
-    height: 1px;
-    
-    
-    background: #D4D4D8;
-    
-    
-    flex: none;
-    order: 3;
-    flex-grow: 1;
-    } */
+  
+width: 125px;
+height: 1px;
+
+
+background: #D4D4D8;
+
+
+flex: none;
+order: 1;
+flex-grow: 1;
+}
+.connect2{
+  width: 125px;
+height: 1px;
+
+
+background: #D4D4D8;
+
+
+flex: none;
+order: 3;
+flex-grow: 1;
+} */
 .repticketpic {
   display: flex;
   flex-direction: column;
@@ -983,9 +984,9 @@ body {
   align-items: flex-start;
   padding: 0px;
   gap: 2px;
-  /* 
-  width: 692px;
-      height: 56px;  */
+
+  /* width: 692px;
+  height: 56px; */
 
   /* Inside auto layout */
 
@@ -997,7 +998,7 @@ body {
 .custinfodivpara {
   width: 547px;
   height: 18px;
-  margin-top: 0px;
+
   font-family: "Manrope";
   font-style: normal;
   font-weight: 400;
@@ -1016,7 +1017,7 @@ body {
   flex-grow: 0;
 }
 /* The Close Button */
-.close {
+#close {
   color: #aaaaaa;
   float: right;
   font-size: 28px;
@@ -1047,7 +1048,8 @@ body {
 }
 
 /* Modal code */
-.backgroundblur {
+#backgroundblur {
+  display: none;
   position: fixed;
   inset: 0;
   height: 100%;
@@ -1056,32 +1058,32 @@ body {
   background: rgba(0, 0, 0, 0.3);
   backdrop-filter: blur(3px);
 }
-.modal {
+#mymodal {
+  display: none;
   position: fixed;
   margin: auto;
   inset: 0;
   max-width: 750px;
   z-index: 65;
   /* height: 935px; */
-  height: 775px;
+  height: 850px;
   width: 100%;
   background: white;
-  border-radius: 15px;
-  /* border-top-left-radius: ; */
+  border-radius: 12px;
 }
-#star {
-  color: #dc2626;
-}
+
 .information {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 20px 24px;
+  padding: 24px;
   gap: 24px;
 
   width: 692px;
   /* height: 663px; */
-  height: 415px;
+  height: 460px;
+  /* Inside auto layout */
+
   flex: none;
   order: 1;
   flex-grow: 0;
@@ -1090,112 +1092,6 @@ body {
   border: 1px solid #e4e4e7;
   border-radius: 8px;
 }
-.selecthardware {
-  width: 692px;
-  height: 30px;
-
-  font-family: "Manrope";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 150%;
-  /* identical to box height, or 30px */
-
-  /* Black */
-
-  color: #18181b;
-
-  /* Inside auto layout */
-
-  flex: none;
-  order: 0;
-  flex-grow: 1;
-}
-#selecthardwarereq {
-  width: 310px;
-  height: 18px;
-  font-family: "Manrope";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 12px;
-  line-height: 150%;
-  /* identical to box height, or 18px */
-
-  /* Red 600 */
-
-  color: #dc2626;
-}
-.switch {
-  position: relative;
-  display: inline-block;
-  width: 35px;
-  height: 65px;
-}
-#reqfield {
-  width: 108px;
-  height: 12px;
-
-  font-family: "Manrope";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 100%;
-  /* identical to box height, or 12px */
-  color: hsl(0, 20%, 5%);
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
-.slider {
-  position: absolute;
-  cursor: pointer;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: #ccc;
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
-}
-.slider:before {
-  position: absolute;
-  content: "";
-  height: 15px;
-  width: 20px;
-  left: 4px;
-  bottom: 4px;
-  background-color: white;
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
-}
-.switch input {
-  opacity: 0;
-  width: 0;
-  height: 0;
-}
-input:checked + .slider {
-  background-color: #2196f3;
-}
-
-input:focus + .slider {
-  box-shadow: 0 0 1px #2196f3;
-}
-
-input:checked + .slider:before {
-  -webkit-transform: translateX(26px);
-  -ms-transform: translateX(26px);
-  transform: translateX(26px);
-}
-
-/* Rounded sliders */
-.slider.round {
-  border-radius: 34px;
-}
-
-.slider.round:before {
-  border-radius: 50%;
-}
-
 .emailandaddress {
   display: flex;
   flex-direction: row;
@@ -1212,7 +1108,7 @@ input:checked + .slider:before {
   order: 0;
 }
 .customeremailtxt {
-  width: 170px;
+  width: 98px;
   height: 18px;
 
   font-family: "Manrope";
@@ -1225,8 +1121,6 @@ input:checked + .slider:before {
   /* Black */
 
   color: #18181b;
-}
-.custclaimissuetxtbox {
 }
 .ordernum {
   width: 310px;
@@ -1251,7 +1145,7 @@ input:checked + .slider:before {
   padding: 12px 16px;
   gap: 16px;
 
-  width: 640px;
+  width: 650px;
   height: 42px;
 
   /* White */
@@ -1350,7 +1244,7 @@ input:checked + .slider:before {
   flex-direction: column;
   align-items: flex-start;
   padding: 0px;
-  gap: 1px;
+  gap: 8px;
 
   width: 310px;
   height: 68px;
@@ -1970,13 +1864,33 @@ input:checked + .slider:before {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: right;
-  gap: 26px;
+  align-items: center;
+  padding: 0px;
+  gap: 16px;
+
   width: 692px;
   height: 45px;
   margin-top: 20px;
+
+  /* Inside auto layout */
+
   flex: none;
   order: 1;
+  flex-grow: 0;
+}
+#reqfield {
+  width: 108px;
+  height: 12px;
+
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%;
+  /* identical to box height, or 12px */
+  color: hsl(0, 20%, 5%);
+  flex: none;
+  order: 0;
   flex-grow: 0;
 }
 .nextbtn {
@@ -1984,166 +1898,116 @@ input:checked + .slider:before {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 12px 24px;
-  gap: 10px;
-
-  width: 105px;
-  height: 45px;
+  padding: 2px;
+  gap: 8px;
+  width: 100px;
   background: #18181b;
   border-radius: 6px;
-
-  flex: none;
-  order: 1;
-  flex-grow: 0;
 }
 #nextbtntxt {
-  width: 31px;
-  height: 21px;
+  /* width: 31px;
+  height: 21px; */
 
   font-family: "Manrope";
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 150%;
-  /* identical to box height, or 21px */
-
-  /* White */
-
+  /* line-height: 150%; */
   color: #ffffff;
-
-  /* Inside auto layout */
-
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
-#selecthardware {
-  width: 310px;
-  height: 18px;
-
-  font-family: "Manrope";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 12px;
-  line-height: 150%;
-  /* identical to box height, or 18px */
-
-  /* Black */
-
-  color: #18181b;
-}
-.toggle {
-  flex-direction: row;
-}
-.yes {
-  width: 20px;
-  height: 18px;
-
-  font-family: "Manrope";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 150%;
-  /* identical to box height, or 18px */
-
-  /* Zinc 600 */
-
-  color: #52525b;
-}
-.no {
-  width: 16px;
-  height: 18px;
-
-  font-family: "Manrope";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 150%;
-  /* identical to box height, or 18px */
-
-  /* Zinc 600 */
-
-  color: #52525b;
-
-  /* Inside auto layout */
-
-  flex: none;
-  order: 2;
-  flex-grow: 0;
-}
-.customerclaimeddiv {
-  box-sizing: border-box;
-
-  /* Auto layout */
-
+.customerinfodiv {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 20px;
-  gap: 16px;
-  margin-top: 20px;
-  width: 650px;
-  height: 380px;
-
-  /* Zinc 200 */
-
-  border: 1px solid #e4e4e7;
-  border-radius: 4px;
-
-  /* Inside auto layout */
-
-  flex: none;
-  order: 1;
-  flex-grow: 0;
+  padding: 3px;
+  /* gap: 8px; */
 }
-.custclaimhead {
-  width: 644px;
-  height: 14px;
-
+.selecthardware {
   font-family: "Manrope";
   font-style: normal;
   font-weight: 600;
-  font-size: 14px;
-  line-height: 100%;
-  /* identical to box height, or 14px */
-
-  /* Black */
-
+  font-size: 20px;
+  line-height: 150%;
   color: #18181b;
-
-  /* Inside auto layout */
-
-  flex: none;
-  order: 0;
-  align-self: stretch;
-  flex-grow: 0;
+  margin-bottom: 6px;
 }
-#descriptiontxtbox {
-  box-sizing: border-box;
+.custinfodivpara {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  /* identical to box height, or 18px */
 
-  /* Auto layout */
+  /* Zinc 600 */
 
+  color: #52525b;
+}
+.information {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: flex-start;
-  padding: 12px 16px;
-  gap: 16px;
-
-  width: 620px;
-  height: 50px;
-
-  /* White */
-
-  background: #ffffff;
-  /* Zinc 200 */
-
-  border: 1px solid #e4e4e7;
-  border-radius: 6px;
-
-  /* Inside auto layout */
-
-  flex: none;
-  order: 1;
-  align-self: stretch;
-  flex-grow: 0;
+  padding: 0px;
+  gap: 24px;
 }
+.emailandaddress {
+  padding-top: 20px;
+  gap: 20px;
+}
+.mailtxtandbox {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 24px;
+  gap: 8px;
+}
+.customeremailtxt {
+  font-family: 'Manrope';
+  flex-direction: row;
+  display: flex;
+  width:180px;
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 150%;
+/* identical to box height, or 18px */
+
+
+/* Black */
+
+color: #18181B;
+}
+.mailtxtbox {
+  box-sizing: border-box;
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 12px 16px;
+gap: 16px;
+width: 644px;
+height: 42px;
+background: #FFFFFF;
+border: 1px solid #E4E4E7;
+border-radius: 6px;
+}
+.mailtxtbox1 {
+  box-sizing: border-box;
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 12px 16px;
+gap: 16px;
+width: 644px;
+height: 42px;
+background: #FFFFFF;
+border: 1px solid #E4E4E7;
+border-radius: 6px;
+height: 30px;
+}
+#star {
+  color: red;
+}
+.warranty{
+  padding-left:18px ;
+}
+

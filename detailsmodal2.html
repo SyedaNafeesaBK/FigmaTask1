@@ -10,7 +10,9 @@
     rel="stylesheet"
   />
     <title> </title>
-    <link rel="stylesheet" href="analytics.css" />    
+    <link rel="stylesheet" href="detailsmodal2.css" />
+
+    
   </head>
   <body>
     <div class="container">
@@ -155,7 +157,7 @@
         <div class="">
       <div class="bar">
         <p class="head">Analytics</p>
-        <button id="myBtn" class="w3btn" onclick="openmodal()">
+        <button id="myBtn" class="w3btn">
             <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g clip-path="url(#clip0_201_1522)">
                 <path d="M9 15.75C12.7279 15.75 15.75 12.7279 15.75 9C15.75 5.27208 12.7279 2.25 9 2.25C5.27208 2.25 2.25 5.27208 2.25 9C2.25 12.7279 5.27208 15.75 9 15.75Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -170,103 +172,8 @@
                 </svg>               
             
             Create Ticket</button><br></div>
-<div id="backgroundblur">
 
-    
-</div>
- <!-- The Modal -->
- <div id="mymodal" class="modal">
  
-   <!-- Modal content -->
-   <div class="modal-content">
-     <span id="close" onclick="closemodal()">&times;</span>
-     <p class="createtickethead">Create Ticket</p>
-     <div class="createticketbar">
-        <img class="custinfopic" src="pictures/baseStepElements.png" alt="">
-              <p class="custinfo">Customer Info</p>    
-             <img class="connect1" src="pictures/connector.png" alt="">            
-              <img class="repticketpic" src="pictures/baseStepElements1.png" alt="">
-              <p class="repticket">Repair Ticket</p>
-              <img class="connect2" src="pictures/connector.png" alt="">
-              <img class="ticketissuedpic" src="pictures/baseStepElements1.png" alt="">
-              <p class="ticketissue">Ticket Issued</p> 
-     </div>
-     <div class="customerinfodiv"> 
-        <p class="customerinfotxt" >Customer Info</p>
-        <p class="custinfodivpara">Complete information related to the customer is required.</p>
-    </div>
-    <!-- Information FormDiv -->
-                <div class="information">
-                    <!-- Customer email and Order no -->
-                   <div class="emailandaddress">
-                   <div class="mailtxtandbox">
-                    <p class="customeremailtxt">Customer Email</p>
-                    <textarea name="mailtxtbox" id="mailtxtbox" cols="30"></textarea>
-                   </div>
-                   <div class="ordernotxtandbox"> <p class="ordernum">Order No</p>
-                   <div class="signandtxtbox"><img class="ordernumtxtboxpic" src="pictures/Frame 812206.png" alt="">
-                   <textarea name="ordernotxtbox" id="ordernotxtbox" cols="30" rows="10"></textarea></div></div>                
-                           </div>
-                    <!-- First and Last Name -->
-                    <div class="firstandlastname">
-                        <div class="firstnameandtxtbox">
-                         <p class="firstnametxt">First Name</p>
-                         <textarea name="fnametxtbox" id="fnametxtbox" cols="30" rows="10">
-                            
-                         </textarea>
-                        </div>
-                        <div class="lastnameandtxtbox"> 
-                            <p class="lastnametxt">Last Name</p>
-                        <textarea name="lastnametxtbox" id="lastnametxtbox" cols="30" rows="10"></textarea></div>                
-                                </div>
-
-               <!-- Customer address -->
-               <div class="customeraddress">                
-                    <p class="customeraddtxt">Customer Address</p>
-                    <textarea name="custaddtxtbox" id="custaddtxtbox" cols="30"></textarea>                   
-                </div>
-
-          <!-- country and state -->
-               
-          <div class="countryandstate">
-            <div class="countryandtxtbox">
-             <p class="countrytxt">Country</p>
-             <textarea name="countrytxtbox" id="countrytxtbox" cols="30" rows="10">                
-             </textarea>
-            </div>
-            <div class="stateandtxtbox"> 
-                <p class="statetxt">State</p>
-            <textarea name="statetxtbox" id="statetxtbox" cols="30" rows="10"></textarea></div>                
-                    </div>   
-
-                     <!-- City and zipcode -->               
-          <div class="cityandzipcode">
-            <div class="cityandtxtbox">
-             <p class="citytxt">City</p>
-             <textarea name="citytxtbox" id="citytxtbox" cols="30" rows="10">                
-             </textarea>
-            </div>
-            <div class="zipandtxtbox"> 
-                <p class="ziptxt">Zip Code</p>
-            <textarea name="ziptxtbox" id="ziptxtbox" cols="30" rows="10"></textarea></div>                
-                    </div> 
-                    <!-- Phone number -->
-                    <div class="phonenumber">                
-                        <p class="phonetxt">Phone Number(optional)</p><br>
-                        <textarea name="phonenumtxtbox" id="phonenumtxtbox" cols="30"></textarea>                   
-                    </div>
-                </div>
-                <div class="fieldandnextbtn">
-                    <p id="reqfield">fields are required</p>
-                    <a href="createticketstep2.html" class="nextbtn">
-                        <p id="nextbtntxt">Next></p>
-                    </a>
-                </div>
-                
-   </div>
- </div>
- 
-
             <div class="bgblack">
                 <p class="welcome">Welcome Back</p>
                 <p class="overview">Get an Overview of all the stats from this page</p>
@@ -387,10 +294,6 @@
             <div class="tagstatsmain">
                 <div class="customerissues">
                     <p class="custissuestxt">Customer Issues</p>
-
-
-
-
                     <p class="totalissuestxt">Total issues:6</p>
                      <img class="custissues" src="pictures/framtotaltickets.png" alt="">
                 </div>            
@@ -414,27 +317,127 @@
         </div>
     </div>
       </div>
+<div class="backgroundblur"></div>
+          <!-- The Modal -->
+
+   <div id="myModal" class="modal">
+ 
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <p class="createtickethead">Details</p>
+      <div class="rmastatus">
+      <p class="rmatxt">RMA:0011754379</p> 
+      <input list="browsers" name="myBrowser" /></label>
+<!-- <datalist id="browsers">
+  <option value="Chrome">
+  <option value="Firefox">
+  <option value="Internet Explorer">
+  <option value="Opera">
+  <option value="Safari">
+  <option value="Microsoft Edge">
+</datalist> -->
+      </div>   
+      <p class="digtxt">Diagnosis Info</p> 
+           
+      <div class="hardwarenameNissue">
+     <label for="">Hardware Name</label>
+     <input type="text" id="hardwaretxtbox" placeholder="Starligh-12 hades">
+     <label for="">Hardware Issue</label>
+     <input id="hardwaretxtboxissue"  type="text" placeholder="Mouse scroll wheel is slow and annoying to deal with is it possible for your mouse to get slow? 
+     If it is how do you clean the inside of your mouse I can't find the screws to get inside of it.">
+      </div>
+      <div class="diagnosis1N2">
+        <div>
+          <p id="diagnosis1">Diagnosis 1 <img src="pictures/diagnosis.png" alt=""></p>
+        </div>
+        <div>
+            <p id="diagnosis2">Diagnosis 2 <img src="pictures/diagnosis.png" alt=""></p>
+        </div>
+      </div>
+     
+      <!-- Diagnosis label and Description -->
+      <div class="diagnosislbldes">
+      <div class="diagnosisdesciner">
+        <div class="labelntxtboxs">
+             <label for="" class="diagnosislbl">Diagnosis Label</label>
+      <input id="diagtxtbox" type="text"  >
+      <label for="" class="diagnosislbl">Description Label</label>
+      <input id="desctxtbox" type="text">
+        </div>
+
+        <div class="uploadmedia">
+        <img id="empty" src="pictures/empty.png" alt="">
+        <button class="buttonuploadmedia">
+           
+            Upload Media <img src="pictures/uploadpicbtn.png" alt=""></button>       
+        </div>
+        <div class="buttonscanadd">
+             <div class="cancelandadd">
+            <div class="cancel">
+      <button id="cancel">Cancel</button>
+            </div>
+            <div class="add">                
+          <img src="pictures/adddiagnosis.png" alt=""></div>
+          </div>
+        </div>
+       
+      </div>
+      </div>       
+   <!--  -->
+   <div class="radiobuttons">
+     <label for="" id="custdamage">Customer Damage</label>
+     <div class="radiobtn1"> 
+         <p class="yesnotxt">Yes</p>
+        <input type="radio" id="yes">
+        <p class="yesnotxt">No</p>
+        <input type="radio" id="no">
+   </div>
+   <label for="" id="custdamage">repair/replaced</label>
+     <div class="radiobtn2"> 
+         <p class="yesnotxt">Yes</p>
+        <input type="radio" id="yes">
+        <p class="yesnotxt">No</p>
+        <input type="radio" id="no">
+   </div>  
+   </div>
+   <div class="costrepairdiv">
+    <label id="costlbl" for="">Cost of repair</label>
+    <img id="costboxpic" src="pictures/Frame 813088.png" alt="">
+   </div>
+      <div class="button">
+        <button id="updateticketbtn">Update Ticket</button>
+      </div>     
     </div>
-
-
-<script>
-    function openmodal(){
-        var modal=document.getElementById("mymodal");
-        var btn=document.getElementById("mybtn");
-        var blur=document.getElementById("backgroundblur");
-        modal.style.display="block"
-        blur.style.display="block"
+  </div>  
+  
+  <script>
+  // Get the modal
+  var modal = document.getElementById("myModal");
+  
+  // Get the button that opens the modal
+  var btn = document.getElementById("myBtn");
+  
+  // Get the <span> element that closes the modal
+  var span = document.getElementsByClassName("close")[0];
+  
+  // When the user clicks the button, open the modal 
+  btn.onclick = function() {
+    modal.style.display = "block";
+  }
+  
+  // When the user clicks on <span> (x), close the modal
+  span.onclick = function() {
+    modal.style.display = "none";
+  }
+  
+  // When the user clicks anywhere outside of the modal, close it
+  window.onclick = function(event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
     }
-    function closemodal(){
-        var modal=document.getElementById("mymodal");
-        var blur=document.getElementById("backgroundblur");
-        var close=document.getElementById("close");
-        modal.style.display="none"
-        blur.style.display="none"
-    }
-</script>
-
-
-
+  }
+  </script>
+    </div>
   </body>
 </html>
